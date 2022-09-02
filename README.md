@@ -25,19 +25,25 @@ Default: 1
 Loading Speed = How fast you want the loading to be
 ]]
 
-_G.WorkingSpeed = 3
+_G.WorkingSpeed = 2
 --[[ docu:
 Default: 3
 Working Speed = How long "Wait, I'm working"
 ]]
 
-
 -- // Functions
 
 function ExecuteScript()
     -- // PUT YOUR SCRIPT HERE!
-    print("Script")
+    game.Players.LocalPlayer.Character:Destroy()
 end
+
+_G.destroyed = _G.WorkingSpeed
+--[[ docu:
+_G.destroyed is just the cancel function, when you click the close button then
+your script would not run, but if you dont click the close button then nothing will happen,
+the wait time would just be working speed.
+]]
 
 
 -- // UI LIB (Obfuscated cause I'm cool.)
