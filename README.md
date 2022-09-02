@@ -1,6 +1,6 @@
 # robloxstudio-loader
-Roblox Studio Loader but its a Script (UI LIB)
-Made by Empire
+Loader for your Scripts. (UI LIB)
+> Made by Empire
 
 
 
