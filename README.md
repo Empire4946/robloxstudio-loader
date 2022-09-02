@@ -8,20 +8,35 @@ Loader for your Scripts. (UI LIB)
 ```lua
 -- // BASIC
 
-_G.ScriptName = "Made By Empire" -- Name of your script
+_G.ScriptName = "Made By Empire" -- Your Script Name
 _G.ImageID = 657238196 -- Default: 657238196
 
 -- // PROPERTIES
 
-_G.WaitingSpeed = 3 -- Default: 3
-_G.LoadingSpeed = 1 -- Default: 1
+_G.WaitingSpeed = 1
+--[[ docu:
+Default: 3
+Waiting Speed = How long before loading
+]]
+
+_G.LoadingSpeed = 1
+--[[ docu:
+Default: 1
+Loading Speed = How fast you want the loading to be
+]]
+
+_G.WorkingSpeed = 3
+--[[ docu:
+Default: 3
+Working Speed = How long "Wait, I'm working"
+]]
 
 
 -- // Functions
 
 function ExecuteScript()
     -- // PUT YOUR SCRIPT HERE!
-    print("Empire4946#1196")
+    print("Script")
 end
 
 
